@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kahu Estate Co. | Luxury Estate Management Oahu, Hawaii</title>
+  <meta name="description" content="Kahu Estate Co. provides white-glove estate management for absentee owners on Oahu, Hawaii. Weekly inspections, vendor management, arrival services, and 24/7 emergency response. Trusted stewards of Oahu's finest homes." />
+  <meta name="keywords" content="luxury estate management oahu, property caretaker hawaii, absentee owner property management oahu, estate management honolulu, hawaii second home management, oahu property steward, kahala estate management, kailua property management, ko olina estate manager" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://kahuestateco.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kahu Estate Co. | Luxury Estate Management Oahu" />
+  <meta property="og:description" content="White-glove estate management for discerning property owners on Oahu. One call. Everything handled." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kahuestateco.com/" />
+  <meta property="og:image" content="https://kahuestateco.com/assets/og-image.jpg" />
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Kahu Estate Co.",
+    "description": "Luxury estate management for absentee property owners on Oahu, Hawaii. White-glove property stewardship, vendor coordination, and 24/7 emergency response.",
+    "url": "https://kahuestateco.com",
+    "telephone": "+1-808-000-0000",
+    "email": "hello@kahuestateco.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Honolulu",
+      "addressRegion": "HI",
+      "addressCountry": "US"
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": "Oahu, Hawaii"
+    },
+    "priceRange": "$$$$",
+    "openingHours": "Mo-Su 00:00-24:00",
+    "sameAs": [
+      "https://www.instagram.com/kahuestateco",
+      "https://www.facebook.com/kahuestateco",
+      "https://www.linkedin.com/company/kahuestateco"
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy: #0D1B2A;
+      --navy-light: #162436;
+      --gold: #B8965A;
+      --gold-light: #D4AF78;
+      --cream: #FAF8F4;
+      --cream-dark: #F0EDE6;
+      --text: #2C2C2C;
+      --text-muted: #6B6B6B;
+      --white: #FFFFFF;
+      --border: #E4DDD4;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+
+    a { text-decoration: none; color: inherit; }
+    img { max-width: 100%; display: block; }
+
+    .container { max-width: 1140px; margin: 0 auto; padding: 0 24px; }
+    .container--narrow { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+
+    /* ─── NAV ─────────────────────────────────── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      padding: 20px 0;
+      transition: background 0.3s, padding 0.3s, box-shadow 0.3s;
+    }
+    nav.scrolled {
+      background: var(--navy);
+      padding: 14px 0;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.2);
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: var(--white);
+      letter-spacing: 0.04em;
+    }
+    .nav-logo span { color: var(--gold); }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+      list-style: none;
+    }
+    .nav-links a {
+      color: rgba(255,255,255,0.82);
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 400;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta {
+      background: var(--gold);
+      color: var(--navy) !important;
+      padding: 10px 24px;
+      font-weight: 500 !important;
+      letter-spacing: 0.06em;
+      transition: background 0.2s !important;
+    }
+    .nav-cta:hover { background: var(--gold-light) !important; }
+    .nav-phone {
+      color: rgba(255,255,255,0.7);
+      font-size: 0.82rem;
+      letter-spacing: 0.04em;
+    }
+    .nav-hamburger { display: none; cursor: pointer; }
+    .nav-hamburger span {
+      display: block; width: 24px; height: 2px;
+      background: white; margin: 5px 0;
+      transition: 0.3s;
+    }
+
+    /* ─── HERO ───────────────────────────────── */
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(160deg, #0D1B2A 0%, #162436 50%, #0F2238 100%);
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0; right: 0;
+      width: 55%;
+      height: 100%;
+      background: url('assets/hero-estate.jpg') center/cover no-repeat;
+      opacity: 0.18;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 120px;
+      background: linear-gradient(to top, var(--white), transparent);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      padding: 120px 0 100px;
+      max-width: 680px;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--gold);
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-weight: 500;
+      margin-bottom: 28px;
+    }
+    .hero-eyebrow::before {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 1px;
+      background: var(--gold);
+    }
+    .hero h1 {
+      font-size: clamp(2.8rem, 5vw, 4.2rem);
+      color: var(--white);
+      margin-bottom: 28px;
+      font-weight: 300;
+      letter-spacing: -0.01em;
+    }
+    .hero h1 em {
+      font-style: italic;
+      color: var(--gold);
+    }
+    .hero-sub {
+      font-size: 1.1rem;
+      color: rgba(255,255,255,0.72);
+      max-width: 520px;
+      margin-bottom: 48px;
+      font-weight: 300;
+      line-height: 1.8;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .btn-primary {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--navy);
+      padding: 16px 36px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .btn-primary:hover { background: var(--gold-light); transform: translateY(-1px); }
+    .btn-outline {
+      display: inline-block;
+      border: 1px solid rgba(255,255,255,0.35);
+      color: rgba(255,255,255,0.82);
+      padding: 16px 36px;
+      font-size: 0.85rem;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+    .hero-stats {
+      display: flex;
+      gap: 48px;
+      margin-top: 72px;
+      padding-top: 48px;
+      border-top: 1px solid rgba(255,255,255,0.12);
+    }
+    .hero-stat-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.4rem;
+      color: var(--gold);
+      font-weight: 300;
+      display: block;
+    }
+    .hero-stat-label {
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.55);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-top: 4px;
+    }
+
+    /* ─── SECTION BASE ───────────────────────── */
+    section { padding: 100px 0; }
+    .section-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--gold);
+      font-size: 0.75rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+    .section-eyebrow::before {
+      content: '';
+      display: block;
+      width: 28px;
+      height: 1px;
+      background: var(--gold);
+    }
+    .section-title {
+      font-size: clamp(2rem, 3.5vw, 2.8rem);
+      color: var(--navy);
+      margin-bottom: 20px;
+    }
+    .section-lead {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      max-width: 600px;
+      line-height: 1.8;
+    }
+
+    /* ─── TRUST BAR ──────────────────────────── */
+    .trust-bar {
+      background: var(--navy);
+      padding: 24px 0;
+    }
+    .trust-bar-inner {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: rgba(255,255,255,0.7);
+      font-size: 0.82rem;
+      letter-spacing: 0.06em;
+    }
+    .trust-item svg { color: var(--gold); flex-shrink: 0; }
+
+    /* ─── PROBLEM/SOLUTION ───────────────────── */
+    .problem-section { background: var(--cream); }
+    .problem-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+      margin-top: 60px;
+    }
+    .problem-list { list-style: none; }
+    .problem-list li {
+      display: flex;
+      gap: 16px;
+      padding: 18px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.97rem;
+      color: var(--text);
+    }
+    .problem-list li:first-child { border-top: 1px solid var(--border); }
+    .problem-icon {
+      color: #C0392B;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .solution-card {
+      background: var(--navy);
+      padding: 52px 44px;
+      position: relative;
+    }
+    .solution-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 3px;
+      height: 100%;
+      background: var(--gold);
+    }
+    .solution-card h3 {
+      font-size: 1.9rem;
+      color: var(--white);
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+    .solution-card p {
+      color: rgba(255,255,255,0.72);
+      font-size: 0.97rem;
+      line-height: 1.85;
+      margin-bottom: 32px;
+    }
+    .solution-card .btn-primary { display: inline-block; }
+
+    /* ─── SERVICES ───────────────────────────── */
+    .services-section { background: var(--white); }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+      margin-top: 60px;
+      background: var(--border);
+    }
+    .service-card {
+      background: var(--white);
+      padding: 48px 36px;
+      position: relative;
+      transition: background 0.3s;
+    }
+    .service-card:hover { background: var(--cream); }
+    .service-card.featured {
+      background: var(--navy);
+    }
+    .service-card.featured:hover { background: var(--navy-light); }
+    .service-tier {
+      font-size: 0.72rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 12px;
+      font-weight: 500;
+    }
+    .service-name {
+      font-size: 1.6rem;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+    .service-card.featured .service-name { color: var(--white); }
+    .service-price {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem;
+      color: var(--gold);
+      margin-bottom: 28px;
+      font-weight: 300;
+    }
+    .service-price span {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .service-card.featured .service-price span { color: rgba(255,255,255,0.5); }
+    .service-features { list-style: none; }
+    .service-features li {
+      display: flex;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--text);
+    }
+    .service-card.featured .service-features li {
+      border-color: rgba(255,255,255,0.1);
+      color: rgba(255,255,255,0.75);
+    }
+    .service-features li:last-child { border-bottom: none; }
+    .check { color: var(--gold); font-weight: 600; flex-shrink: 0; }
+    .service-cta {
+      margin-top: 36px;
+      display: inline-block;
+      font-size: 0.82rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      border-bottom: 1px solid var(--gold);
+      padding-bottom: 2px;
+      transition: opacity 0.2s;
+    }
+    .service-cta:hover { opacity: 0.7; }
+
+    /* ─── PROCESS ────────────────────────────── */
+    .process-section { background: var(--cream); }
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 40px;
+      margin-top: 60px;
+      position: relative;
+    }
+    .process-steps::before {
+      content: '';
+      position: absolute;
+      top: 32px;
+      left: 60px;
+      right: 60px;
+      height: 1px;
+      background: var(--border);
+    }
+    .process-step { text-align: center; position: relative; }
+    .step-num {
+      width: 64px; height: 64px;
+      background: var(--navy);
+      color: var(--gold);
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+      position: relative;
+      z-index: 1;
+    }
+    .step-title {
+      font-size: 1.15rem;
+      color: var(--navy);
+      margin-bottom: 12px;
+    }
+    .step-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+
+    /* ─── WHY KAHU ───────────────────────────── */
+    .why-section { background: var(--white); }
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 48px;
+      margin-top: 60px;
+    }
+    .why-card { border-top: 2px solid var(--border); padding-top: 28px; }
+    .why-card:hover { border-color: var(--gold); }
+    .why-icon {
+      font-size: 2rem;
+      margin-bottom: 16px;
+    }
+    .why-title {
+      font-size: 1.2rem;
+      color: var(--navy);
+      margin-bottom: 10px;
+    }
+    .why-desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+    }
+
+    /* ─── AREAS ──────────────────────────────── */
+    .areas-section { background: var(--navy); }
+    .areas-section .section-title { color: var(--white); }
+    .areas-section .section-lead { color: rgba(255,255,255,0.65); }
+    .areas-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2px;
+      margin-top: 60px;
+      background: rgba(255,255,255,0.08);
+    }
+    .area-card {
+      background: var(--navy);
+      padding: 32px 24px;
+      border-left: 3px solid transparent;
+      transition: border-color 0.3s, background 0.3s;
+    }
+    .area-card:hover {
+      border-color: var(--gold);
+      background: var(--navy-light);
+    }
+    .area-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem;
+      color: var(--white);
+      margin-bottom: 6px;
+    }
+    .area-desc {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.5);
+      letter-spacing: 0.04em;
+    }
+
+    /* ─── TESTIMONIALS ───────────────────────── */
+    .testimonials-section { background: var(--cream); }
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      margin-top: 60px;
+    }
+    .testimonial-card {
+      background: var(--white);
+      padding: 40px 32px;
+      border-bottom: 3px solid transparent;
+      transition: border-color 0.3s;
+    }
+    .testimonial-card:hover { border-color: var(--gold); }
+    .stars { color: var(--gold); font-size: 1rem; margin-bottom: 20px; letter-spacing: 3px; }
+    .testimonial-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem;
+      color: var(--navy);
+      line-height: 1.75;
+      font-style: italic;
+      margin-bottom: 24px;
+    }
+    .testimonial-author { font-size: 0.82rem; color: var(--text-muted); }
+    .testimonial-author strong { display: block; color: var(--text); font-size: 0.9rem; margin-bottom: 2px; }
+
+    /* ─── BLOG ───────────────────────────────── */
+    .blog-section { background: var(--white); }
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      margin-top: 60px;
+    }
+    .blog-card { cursor: pointer; }
+    .blog-img {
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: var(--cream-dark);
+      margin-bottom: 24px;
+      overflow: hidden;
+      position: relative;
+    }
+    .blog-img-placeholder {
+      width: 100%; height: 100%;
+      background: linear-gradient(135deg, var(--navy) 0%, #1a3a5c 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold);
+      font-size: 2rem;
+    }
+    .blog-category {
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    .blog-title {
+      font-size: 1.2rem;
+      color: var(--navy);
+      margin-bottom: 12px;
+      line-height: 1.4;
+      transition: color 0.2s;
+    }
+    .blog-card:hover .blog-title { color: var(--gold); }
+    .blog-excerpt { font-size: 0.88rem; color: var(--text-muted); line-height: 1.7; }
+    .blog-meta { font-size: 0.78rem; color: var(--text-muted); margin-top: 16px; }
+
+    /* ─── CTA SECTION ────────────────────────── */
+    .cta-section {
+      background: linear-gradient(135deg, var(--navy) 0%, #0F2238 100%);
+      padding: 100px 0;
+      text-align: center;
+    }
+    .cta-section h2 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      color: var(--white);
+      margin-bottom: 20px;
+    }
+    .cta-section h2 em { color: var(--gold); font-style: italic; }
+    .cta-section p {
+      color: rgba(255,255,255,0.65);
+      font-size: 1.05rem;
+      max-width: 540px;
+      margin: 0 auto 44px;
+      line-height: 1.8;
+    }
+    .cta-contact {
+      display: flex;
+      justify-content: center;
+      gap: 48px;
+      margin-top: 60px;
+      flex-wrap: wrap;
+    }
+    .cta-contact-item { text-align: center; }
+    .cta-contact-label {
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.45);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .cta-contact-value {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem;
+      color: var(--white);
+    }
+    .cta-contact-value a { color: var(--gold); }
+
+    /* ─── CONTACT FORM ───────────────────────── */
+    .contact-section { background: var(--cream); }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 80px;
+      align-items: start;
+    }
+    .contact-info h3 {
+      font-size: 2rem;
+      color: var(--navy);
+      margin-bottom: 20px;
+    }
+    .contact-info p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.8;
+      margin-bottom: 36px;
+    }
+    .contact-detail {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 20px;
+      align-items: center;
+      font-size: 0.92rem;
+    }
+    .contact-detail-icon { color: var(--gold); font-size: 1.1rem; }
+    form { display: flex; flex-direction: column; gap: 16px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    input, select, textarea {
+      width: 100%;
+      padding: 14px 18px;
+      border: 1px solid var(--border);
+      background: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.92rem;
+      color: var(--text);
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    input:focus, select:focus, textarea:focus { border-color: var(--gold); }
+    textarea { min-height: 140px; resize: vertical; }
+    .form-submit {
+      background: var(--navy);
+      color: var(--white);
+      border: none;
+      padding: 16px 36px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.2s;
+      align-self: flex-start;
+    }
+    .form-submit:hover { background: var(--gold); color: var(--navy); }
+
+    /* ─── FOOTER ─────────────────────────────── */
+    footer {
+      background: #07111C;
+      padding: 60px 0 32px;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 60px;
+      margin-bottom: 48px;
+    }
+    .footer-brand p {
+      color: rgba(255,255,255,0.45);
+      font-size: 0.88rem;
+      line-height: 1.7;
+      margin-top: 16px;
+      max-width: 280px;
+    }
+    .footer-col h4 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+    .footer-col ul { list-style: none; }
+    .footer-col ul li { margin-bottom: 10px; }
+    .footer-col ul li a {
+      color: rgba(255,255,255,0.5);
+      font-size: 0.88rem;
+      transition: color 0.2s;
+    }
+    .footer-col ul li a:hover { color: var(--gold); }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-top: 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .footer-bottom p {
+      color: rgba(255,255,255,0.3);
+      font-size: 0.8rem;
+    }
+    .footer-bottom a { color: rgba(255,255,255,0.3); transition: color 0.2s; }
+    .footer-bottom a:hover { color: var(--gold); }
+
+    /* ─── RESPONSIVE ─────────────────────────── */
+    @media (max-width: 960px) {
+      .nav-links { display: none; }
+      .nav-hamburger { display: block; }
+      .problem-grid,
+      .contact-grid { grid-template-columns: 1fr; gap: 48px; }
+      .services-grid,
+      .testimonials-grid,
+      .blog-grid { grid-template-columns: 1fr; }
+      .process-steps { grid-template-columns: 1fr 1fr; }
+      .process-steps::before { display: none; }
+      .why-grid { grid-template-columns: 1fr 1fr; }
+      .areas-grid { grid-template-columns: 1fr 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 40px; }
+      .hero-stats { gap: 32px; flex-wrap: wrap; }
+    }
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2.4rem; }
+      .hero-actions { flex-direction: column; }
+      .form-row { grid-template-columns: 1fr; }
+      .why-grid,
+      .process-steps,
+      .areas-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .trust-bar-inner { gap: 24px; justify-content: flex-start; }
+      .cta-contact { gap: 32px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="/" class="nav-logo">Kahu <span>Estate Co.</span></a>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">Our Process</a></li>
+          <li><a href="#areas">Service Areas</a></li>
+          <li><a href="#blog">Insights</a></li>
+          <li><a href="#contact" class="nav-cta">Schedule a Consultation</a></li>
+        </ul>
+        <div class="nav-hamburger" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-eyebrow">Luxury Estate Management · Oahu, Hawaii</div>
+        <h1>Your Estate.<br /><em>Perfectly Kept.</em><br />While You're Away.</h1>
+        <p class="hero-sub">
+          Kahu means guardian in Hawaiian. We take that seriously. Weekly inspections, trusted vendors, 24/7 response — so your Oahu property is always protected, maintained, and ready for your return.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Schedule a Private Consultation</a>
+          <a href="#services" class="btn-outline">Explore Our Services</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <span class="hero-stat-num">24/7</span>
+            <div class="hero-stat-label">Emergency Response</div>
+          </div>
+          <div>
+            <span class="hero-stat-num">100%</span>
+            <div class="hero-stat-label">Vetted Vendor Network</div>
+          </div>
+          <div>
+            <span class="hero-stat-num">Weekly</span>
+            <div class="hero-stat-label">Photo Reports</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       TRUST BAR
+  ════════════════════════════════════════════ -->
+  <div class="trust-bar">
+    <div class="container">
+      <div class="trust-bar-inner">
+        <div class="trust-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Fully Insured &amp; Bonded
+        </div>
+        <div class="trust-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          1-Hour Emergency SLA
+        </div>
+        <div class="trust-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          Monthly Owner Reports
+        </div>
+        <div class="trust-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg>
+          Discrete &amp; Confidential
+        </div>
+        <div class="trust-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Oahu's Trusted Estate Managers
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       PROBLEM / SOLUTION
+  ════════════════════════════════════════════ -->
+  <section class="problem-section">
+    <div class="container">
+      <div class="section-eyebrow">The Reality</div>
+      <h2 class="section-title">What Happens When<br />No One Is Watching</h2>
+      <div class="problem-grid">
+        <ul class="problem-list">
+          <li>
+            <span class="problem-icon">✗</span>
+            <span>AC units fail silently — mold spreads for weeks before anyone notices</span>
+          </li>
+          <li>
+            <span class="problem-icon">✗</span>
+            <span>Slow plumbing leaks cause tens of thousands in water damage</span>
+          </li>
+          <li>
+            <span class="problem-icon">✗</span>
+            <span>Contractors overbill and cut corners when there's no one on site to supervise</span>
+          </li>
+          <li>
+            <span class="problem-icon">✗</span>
+            <span>Pest infestations in humid Hawaii climates go undetected for months</span>
+          </li>
+          <li>
+            <span class="problem-icon">✗</span>
+            <span>Storm damage isn't discovered until your next visit — months later</span>
+          </li>
+          <li>
+            <span class="problem-icon">✗</span>
+            <span>Your $5M property is managed with a neighbor's spare key and best intentions</span>
+          </li>
+        </ul>
+        <div class="solution-card">
+          <h3>"One text. Everything handled."</h3>
+          <p>
+            Kahu Estate Co. was built for owners who refuse to accept that owning a luxury property in Hawaii means constant worry. We are your eyes, your hands, and your trusted advocate on the ground — every single week.
+          </p>
+          <p>
+            Weekly photo and video inspections. A vetted network of Hawaii's best contractors. Arrival provisioning so your home is perfect the moment you land. And 24/7 emergency response when minutes matter.
+          </p>
+          <a href="#contact" class="btn-primary">Protect Your Estate →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       SERVICES
+  ════════════════════════════════════════════ -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-eyebrow">What We Offer</div>
+      <h2 class="section-title">Estate Management<br />Tailored to Your Property</h2>
+      <p class="section-lead">
+        Every estate is different. We offer three tiers of service designed to match the scope of your property and the level of involvement you prefer.
+      </p>
+      <div class="services-grid">
+
+        <!-- Tier 1 -->
+        <div class="service-card">
+          <div class="service-tier">Tier I</div>
+          <h3 class="service-name">Stewardship</h3>
+          <div class="service-price">$2,500 <span>/ month</span></div>
+          <ul class="service-features">
+            <li><span class="check">✓</span> Weekly property inspection + photo report</li>
+            <li><span class="check">✓</span> Vendor coordination (AC, plumbing, pest, pool)</li>
+            <li><span class="check">✓</span> 24/7 emergency on-call response</li>
+            <li><span class="check">✓</span> Mail collection &amp; forwarding</li>
+            <li><span class="check">✓</span> Annual deep-clean coordination</li>
+            <li><span class="check">✓</span> Monthly written owner report</li>
+          </ul>
+          <a href="#contact" class="service-cta">Get Started →</a>
+        </div>
+
+        <!-- Tier 2 (Featured) -->
+        <div class="service-card featured">
+          <div class="service-tier">Tier II · Most Popular</div>
+          <h3 class="service-name" style="color:white;">Full Estate Management</h3>
+          <div class="service-price">$5,000 <span>/ month</span></div>
+          <ul class="service-features">
+            <li><span class="check">✓</span> Everything in Stewardship</li>
+            <li><span class="check">✓</span> Arrival provisioning (groceries, linens, flowers)</li>
+            <li><span class="check">✓</span> Household staff management</li>
+            <li><span class="check">✓</span> Budget management &amp; expense reporting</li>
+            <li><span class="check">✓</span> Insurance policy liaison</li>
+            <li><span class="check">✓</span> Storm prep &amp; post-storm assessment</li>
+            <li><span class="check">✓</span> Seasonal property refresh</li>
+          </ul>
+          <a href="#contact" class="service-cta" style="color:var(--gold);border-color:var(--gold)">Get Started →</a>
+        </div>
+
+        <!-- Tier 3 -->
+        <div class="service-card">
+          <div class="service-tier">Tier III</div>
+          <h3 class="service-name">Estate Director</h3>
+          <div class="service-price">Custom <span>/ month</span></div>
+          <ul class="service-features">
+            <li><span class="check">✓</span> Everything in Full Estate Management</li>
+            <li><span class="check">✓</span> Dedicated personal estate director</li>
+            <li><span class="check">✓</span> Renovation &amp; capital project oversight</li>
+            <li><span class="check">✓</span> Lifestyle concierge integration</li>
+            <li><span class="check">✓</span> Art &amp; valuables inventory management</li>
+            <li><span class="check">✓</span> Tax &amp; permit liaison coordination</li>
+            <li><span class="check">✓</span> 1-hour priority response SLA</li>
+          </ul>
+          <a href="#contact" class="service-cta">Inquire Privately →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       PROCESS
+  ════════════════════════════════════════════ -->
+  <section class="process-section" id="process">
+    <div class="container">
+      <div class="section-eyebrow">How It Works</div>
+      <h2 class="section-title">Simple for You.<br />Thorough from Us.</h2>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-num">01</div>
+          <h4 class="step-title">Private Consultation</h4>
+          <p class="step-desc">We visit your property, understand your specific needs, and propose the right service level — no pressure, no commitments.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">02</div>
+          <h4 class="step-title">Estate Onboarding</h4>
+          <p class="step-desc">We document every detail of your property — systems, vendors, access, preferences — and build a custom management plan.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">03</div>
+          <h4 class="step-title">Active Stewardship</h4>
+          <p class="step-desc">Weekly inspections begin. We proactively identify and resolve issues before they become costly problems.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">04</div>
+          <h4 class="step-title">Monthly Reporting</h4>
+          <p class="step-desc">You receive a detailed monthly report — photos, vendor activity, expenses, and upcoming recommendations. Full transparency, always.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       WHY KAHU
+  ════════════════════════════════════════════ -->
+  <section class="why-section">
+    <div class="container">
+      <div class="section-eyebrow">Why Kahu</div>
+      <h2 class="section-title">The Standard We Hold Ourselves To</h2>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">🛡️</div>
+          <h4 class="why-title">Fully Insured</h4>
+          <p class="why-desc">We carry $2M general liability and E&O insurance. Your property — and your trust — is protected at every level.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🔍</div>
+          <h4 class="why-title">Vetted Vendor Network</h4>
+          <p class="why-desc">Every contractor in our network is licensed with Hawaii DCCA, insured, and has been vetted through paid work. No exceptions.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">📱</div>
+          <h4 class="why-title">One Point of Contact</h4>
+          <p class="why-desc">One person. One text. No call centers, no ticketing systems. Your estate manager picks up the phone.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">📸</div>
+          <h4 class="why-title">Visual Reporting</h4>
+          <p class="why-desc">Every inspection produces a detailed photo and video report. You see exactly what we see — every single week.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🌺</div>
+          <h4 class="why-title">Deep Oahu Roots</h4>
+          <p class="why-desc">We know Oahu's trades, microclimates, permit processes, and property quirks. There's no substitute for genuine local expertise.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🤫</div>
+          <h4 class="why-title">Absolute Discretion</h4>
+          <p class="why-desc">Your property, your identity, your preferences — never shared. Confidentiality is a condition of every engagement, without exception.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       SERVICE AREAS
+  ════════════════════════════════════════════ -->
+  <section class="areas-section" id="areas">
+    <div class="container">
+      <div class="section-eyebrow">Where We Work</div>
+      <h2 class="section-title">Oahu's Most Prestigious<br />Residential Communities</h2>
+      <p class="section-lead">
+        From Kahala's oceanfront estates to Kailua's quiet luxury, we serve Oahu's finest neighborhoods with the same exacting standard.
+      </p>
+      <div class="areas-grid">
+        <div class="area-card">
+          <div class="area-name">Kahala</div>
+          <div class="area-desc">Oahu's most exclusive residential enclave</div>
+        </div>
+        <div class="area-card">
+          <div class="area-name">Diamond Head</div>
+          <div class="area-desc">Iconic hillside and oceanfront estates</div>
+        </div>
+        <div class="area-card">
+          <div class="area-name">Portlock</div>
+          <div class="area-desc">Coveted peninsula luxury properties</div>
+        </div>
+        <div class="area-card">
+          <div class="area-name">Lanikai</div>
+          <div class="area-desc">World-renowned beachfront community</div>
+        </div>
+        <div class="area-card">
+          <div class="area-name">Kailua</div>
+          <div class="area-desc">Premium windward estate homes</div>
+        </div>
+        <div class="area-card">
+          <div class="area-name">Ko Olina</div>
+          <div class="area-desc">Leeward resort residential community</div>
+        </div>
+        <div class="area-card">
+          <div class="area-name">Nuuanu</div>
+          <div class="area-desc">Historic hillside estates &amp; retreats</div>
+        </div>
+        <div class="area-card">
+          <div class="area-name">Hawaii Kai</div>
+          <div class="area-desc">Waterfront and marina-view luxury homes</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       TESTIMONIALS
+  ════════════════════════════════════════════ -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-eyebrow">What Owners Say</div>
+      <h2 class="section-title">Trusted by Oahu's<br />Most Discerning Property Owners</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"We live in San Francisco and were terrified of leaving our Kahala home unattended for months at a time. Kahu changed everything. Monthly reports, no surprises, and our home is always perfect when we arrive."</p>
+          <div class="testimonial-author">
+            <strong>M. &amp; J. Thornton</strong>
+            Kahala Estate Owners · San Francisco, CA
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Within the first month, they caught an AC refrigerant leak that would have caused significant mold damage. That one catch more than paid for an entire year of service. Worth every penny."</p>
+          <div class="testimonial-author">
+            <strong>David K.</strong>
+            Portlock Property Owner · New York, NY
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"I text once and it's handled. That's not marketing — it's actually how it works. I haven't had to deal with a single Hawaii contractor in two years. That alone is priceless."</p>
+          <div class="testimonial-author">
+            <strong>R. Nakamura</strong>
+            Lanikai Estate Owner · Tokyo, Japan
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       BLOG
+  ════════════════════════════════════════════ -->
+  <section class="blog-section" id="blog">
+    <div class="container">
+      <div class="section-eyebrow">Estate Insights</div>
+      <h2 class="section-title">Knowledge for the<br />Discerning Property Owner</h2>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <div class="blog-img">
+            <div class="blog-img-placeholder">🏡</div>
+          </div>
+          <div class="blog-category">Property Protection</div>
+          <h3 class="blog-title">What Really Happens to Your Oahu Property When You Leave</h3>
+          <p class="blog-excerpt">Hawaii's heat, humidity, and salt air create conditions that silently damage luxury properties within weeks of the owner's departure. Here's what to watch for — and how professional oversight prevents costly surprises.</p>
+          <div class="blog-meta">February 2026 · 6 min read</div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-img">
+            <div class="blog-img-placeholder">🌪️</div>
+          </div>
+          <div class="blog-category">Hurricane Preparedness</div>
+          <h3 class="blog-title">Hurricane Season on Oahu: A Property Owner's Complete Prep Guide</h3>
+          <p class="blog-excerpt">From securing outdoor furniture to insurance documentation and post-storm assessment protocols — the comprehensive guide for absentee owners who want to be prepared before the storm season hits.</p>
+          <div class="blog-meta">February 2026 · 8 min read</div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-img">
+            <div class="blog-img-placeholder">🔑</div>
+          </div>
+          <div class="blog-category">Owner's Guide</div>
+          <h3 class="blog-title">How to Choose an Estate Manager in Hawaii: 10 Questions to Ask</h3>
+          <p class="blog-excerpt">Not all property managers are equal — and in Hawaii, the difference between a professional estate manager and a casual caretaker can mean hundreds of thousands of dollars in undetected damage. Here's how to evaluate your options.</p>
+          <div class="blog-meta">January 2026 · 5 min read</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CTA
+  ════════════════════════════════════════════ -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Your Property Deserves<br /><em>More Than a Spare Key.</em></h2>
+      <p>Kahu Estate Co. takes care of your Oahu estate the way you would — if you were here every day. Let's talk about what your property needs.</p>
+      <a href="#contact" class="btn-primary">Schedule Your Private Consultation</a>
+      <div class="cta-contact">
+        <div class="cta-contact-item">
+          <div class="cta-contact-label">Call or Text</div>
+          <div class="cta-contact-value"><a href="tel:+18080000000">(808) 000-0000</a></div>
+        </div>
+        <div class="cta-contact-item">
+          <div class="cta-contact-label">Email</div>
+          <div class="cta-contact-value"><a href="mailto:hello@kahuestateco.com">hello@kahuestateco.com</a></div>
+        </div>
+        <div class="cta-contact-item">
+          <div class="cta-contact-label">Based In</div>
+          <div class="cta-contact-value">Oahu, Hawaii</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CONTACT
+  ════════════════════════════════════════════ -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="section-eyebrow">Get In Touch</div>
+          <h3>Start the Conversation</h3>
+          <p>
+            Every engagement begins with a private, no-obligation consultation. We visit your property, understand your priorities, and propose a plan that fits. No generic packages, no surprises.
+          </p>
+          <div class="contact-detail">
+            <span class="contact-detail-icon">📞</span>
+            <span>(808) 000-0000 — Call or Text Anytime</span>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail-icon">✉️</span>
+            <span>hello@kahuestateco.com</span>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail-icon">📍</span>
+            <span>Serving All of Oahu, Hawaii</span>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail-icon">🕐</span>
+            <span>Available 7 days a week · Emergency line 24/7</span>
+          </div>
+        </div>
+        <form action="#" method="POST" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <input type="text" name="first_name" placeholder="First Name" required />
+            <input type="text" name="last_name" placeholder="Last Name" required />
+          </div>
+          <input type="email" name="email" placeholder="Email Address" required />
+          <input type="tel" name="phone" placeholder="Phone Number" />
+          <input type="text" name="property" placeholder="Property Address / Neighborhood" />
+          <select name="service">
+            <option value="" disabled selected>Service Level of Interest</option>
+            <option value="tier1">Tier I — Stewardship ($2,500/mo)</option>
+            <option value="tier2">Tier II — Full Estate Management ($5,000/mo)</option>
+            <option value="tier3">Tier III — Estate Director (Custom)</option>
+            <option value="unsure">Not Sure — Let's Discuss</option>
+          </select>
+          <textarea name="message" placeholder="Tell us about your property and what you're looking for..."></textarea>
+          <button type="submit" class="form-submit">Send Inquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">Kahu <span style="color:var(--gold)">Estate Co.</span></div>
+          <p>White-glove estate management for discerning property owners on Oahu, Hawaii. Your estate, protected and perfected — every week.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Stewardship</a></li>
+            <li><a href="#services">Full Estate Management</a></li>
+            <li><a href="#services">Estate Director</a></li>
+            <li><a href="#services">Arrival Provisioning</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Service Areas</h4>
+          <ul>
+            <li><a href="#areas">Kahala</a></li>
+            <li><a href="#areas">Diamond Head</a></li>
+            <li><a href="#areas">Kailua / Lanikai</a></li>
+            <li><a href="#areas">Ko Olina</a></li>
+            <li><a href="#areas">Portlock / Hawaii Kai</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#process">Our Process</a></li>
+            <li><a href="#blog">Estate Insights</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Kahu Estate Co., LLC. All rights reserved. · Oahu, Hawaii</p>
+        <p>
+          <a href="privacy.html">Privacy</a> ·
+          <a href="terms.html">Terms</a> ·
+          <a href="mailto:hello@kahuestateco.com">hello@kahuestateco.com</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Sticky nav
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Mobile menu
+    function toggleMenu() {
+      const links = document.querySelector('.nav-links');
+      links.style.display = links.style.display === 'flex' ? 'none' : 'flex';
+      links.style.flexDirection = 'column';
+      links.style.position = 'absolute';
+      links.style.top = '70px';
+      links.style.left = '0';
+      links.style.right = '0';
+      links.style.background = 'var(--navy)';
+      links.style.padding = '24px';
+      links.style.gap = '20px';
+    }
+
+    // Form handler
+    function handleSubmit(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('.form-submit');
+      btn.textContent = 'Thank You — We\'ll Be in Touch Within 24 Hours';
+      btn.style.background = 'var(--gold)';
+      btn.style.color = 'var(--navy)';
+      btn.disabled = true;
+    }
+
+    // Smooth scroll for all anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
