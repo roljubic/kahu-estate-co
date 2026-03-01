@@ -485,6 +485,9 @@
     }
     .process__step:hover::before { opacity: 1; }
 
+    .process__step:not(:last-child)::after { content: "→"; position: absolute; right: -14px; top: 50%; transform: translateY(-50%); font-size: 1.2rem; color: rgba(201,169,110,0.5); z-index: 1; pointer-events: none; }
+    @media(max-width:900px){ .process__step:not(:last-child)::after { display: none; } }
+
     /* ── WHY ─────────────────────────────── */
     .why { background: var(--c-bg); }
     .why__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 120px; align-items: center; }
