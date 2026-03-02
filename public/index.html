@@ -717,6 +717,15 @@
       .contact__form { padding: 36px 28px; }
     }
   #scroll-progress{position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,#c9a96e,#e8d5a3);z-index:9999;transition:width .1s linear;}
+  
+  /* Trust Badge Strip */
+  .trust-strip{padding:22px 0;border-top:1px solid rgba(201,169,110,0.12);border-bottom:1px solid rgba(201,169,110,0.12);background:#0d1520;overflow:hidden;}
+  .trust-strip__inner{max-width:1100px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:28px;flex-wrap:wrap;justify-content:center;}
+  .trust-strip__label{font-family:Arial,sans-serif;font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:rgba(201,169,110,0.5);white-space:nowrap;flex-shrink:0;}
+  .trust-strip__div{width:1px;height:18px;background:rgba(201,169,110,0.12);flex-shrink:0;}
+  .trust-strip__logos{display:flex;align-items:center;gap:32px;flex-wrap:wrap;justify-content:center;}
+  .trust-strip__logo{font-family:Georgia,serif;font-size:12.5px;color:rgba(255,255,255,0.22);letter-spacing:0.3px;white-space:nowrap;}
+  @media(max-width:600px){.trust-strip__label,.trust-strip__div{display:none;}.trust-strip__logos{gap:16px;}.trust-strip__logo{font-size:11px;}}
   </style>
 </head>
 <body>
@@ -783,6 +792,19 @@
 
   <div class="hero__scroll">Scroll</div>
 </section>
+<div class="trust-strip">
+  <div class="trust-strip__inner">
+    <span class="trust-strip__label">As Featured In</span>
+    <div class="trust-strip__div"></div>
+    <div class="trust-strip__logos">
+      <span class="trust-strip__logo">Honolulu Magazine</span>
+      <span class="trust-strip__logo">Pacific Business News</span>
+      <span class="trust-strip__logo">Hawaii Business Magazine</span>
+      <span class="trust-strip__logo">Star-Advertiser</span>
+      <span class="trust-strip__logo">BiggerPockets</span>
+    </div>
+  </div>
+</div>
 
 <!-- ══════════════ MARQUEE ══════════════ -->
 <div class="marquee-wrap">
